@@ -1,0 +1,25 @@
+{
+  "name": "@weo-edu/engaged",
+  "description": "Track engaged time on a page.",
+  "repository": "git://github.com/weo-edu/engaged.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "make build",
+    "postpublish": "make clean"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.0.15",
+    "babel-preset-es2015": "^6.1.2",
+    "babelify": "^7.2.0",
+    "envify": "^3.4.0",
+    "hihat": "^2.5.0",
+    "standard": "^5.1.0",
+    "synthetic-dom-events": "^0.3.0",
+    "tap-dev-tool": "^1.3.0",
+    "tape": "^4.2.0",
+    "trigger-event": "^1.0.2"
+  }
+}
