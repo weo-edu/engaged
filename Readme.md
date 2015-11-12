@@ -28,11 +28,6 @@ engaged(throttle(function () {
   duration += engagementUnit
   track()
 }, engagementUnit))
-
-
-
-
-
 ```
 
 ## License
